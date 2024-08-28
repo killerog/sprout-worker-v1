@@ -1,0 +1,20 @@
+{
+    "name": "sprout-worker",
+    "version": "1.1.0",
+    "description": "Cloudflare Worker for Sprout for YNAB",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'",
+        "serve": "wrangler dev index.js",
+        "deploy": "wrangler publish"
+    },
+    "devDependencies": {
+        "prettier": "^2.2.1",
+        "wrangler": "^2.21.1"
+    },
+    "dependencies": {
+        "serverless-cloudflare-workers": "^1.2.0",
+        "sjcl": "^1.0.8"
+    }
+}

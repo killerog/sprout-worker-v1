@@ -1,0 +1,7 @@
+name = "sprout-worker"
+type = "webpack"
+account_id = "***"
+workers_dev = true
+compatibility_date = "2021-10-22"
+
+vars = { PRIVACY_DATE = 1616761440000 }
