@@ -2,3 +2,4 @@ node_modules/
 worker/
 .cargo-ok
 dist/
+index.js

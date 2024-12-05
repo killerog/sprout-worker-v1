@@ -7,7 +7,7 @@ There hasn't been any maintenance or releases for the back-end for a long time d
 
 ## Install
 ```
-npm run install
+npm install
 ```
 
 ## Setup
